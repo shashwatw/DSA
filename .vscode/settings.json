@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.tsx": "javascript",
+        "ostream": "cpp"
+    }
+}
