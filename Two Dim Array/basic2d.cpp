@@ -14,6 +14,28 @@ bool isPresent(int arr[][4], int target, int row, int col)
     return false;
 }
 
+int largestRowSum(int arr[][4], int row, int col)
+{
+    int maxi = -999999;
+    int rowIndex = -1;
+
+    for (int row = 0; row < 3; row++)
+    {
+        int sum = 0;
+        for (int col = 0; col < 4; col++)
+        {
+            sum += arr[row][col];
+        }
+        if (sum > maxi)
+        {
+            maxi = sum;
+            rowIndex = row;
+        }
+    }
+    cout << "The maximum sum is: " << maxi << endl;
+    return row;
+}
+
 void printColSum(int arr[][4], int row, int col)
 {
     cout << "Column Sum: ";
@@ -81,22 +103,26 @@ int main()
         }
         cout << endl;
     }
+    /*
+        int target;
+        cout << "Enter the number to search: ";
+        cin >> target;
 
-    int target;
-    cout << "Enter the number to search: ";
-    cin >> target;
+        if (isPresent(arr, target, 3, 4))
+        {
+            cout << "Present" << endl;
+        }
+        else
+        {
+            cout << "Not Present" << endl;
+        }
 
-    if (isPresent(arr, target, 3, 4))
-    {
-        cout << "Present" << endl;
-    }
-    else
-    {
-        cout << "Not Present" << endl;
-    }
+        printColSum(arr, 3, 4);
+        printRowSum(arr, 3, 4);
+    */
 
-    printColSum(arr, 3, 4);
-    printRowSum(arr, 3, 4);
+    int ansIndex = largestRowSum(arr, 3, 4);
+    cout << "The row with maximum sum is: " << ansIndex << endl;
 
     return 0;
 }
