@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+// 2D Arrays
 bool isPresent(int arr[][4], int target, int row, int col)
 {
     for (int row = 0; row < 3; row++)
