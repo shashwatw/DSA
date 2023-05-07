@@ -1,5 +1,7 @@
 // Iterative approach to find GCD of two numbers
 
+// lcm(a, b) x gcd(a, b) = (a * b)
+
 #include <iostream>
 using namespace std;
 
