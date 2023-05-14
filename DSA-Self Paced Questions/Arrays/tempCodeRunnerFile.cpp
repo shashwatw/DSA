@@ -1,5 +1,0 @@
-
-    }
-
-    return floor(sum / n);
-}
