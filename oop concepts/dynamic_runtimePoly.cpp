@@ -2,6 +2,7 @@
 using namespace std;
 // dynamic polymorphism ====> function overriding
 // in this the class having the same function will be called as it would be more relevant for it to execute
+// Also called runtime polymorphism
 
 class Animal
 {
