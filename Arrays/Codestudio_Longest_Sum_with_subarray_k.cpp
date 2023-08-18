@@ -28,3 +28,32 @@ int longestSubarrayWithSumK(vector < int > a, long long k) {
 
     return maxLength;
 }
+
+
+//O(n) app
+#include <bits/stdc++.h> 
+int getLongestSubarray(vector<int>& nums, int k){
+
+unordered_map<long long, int> prefixSum;  // Stores prefix sum and its index
+    int maxLength = 0;
+    long long sum = 0;
+
+    for (int i = 0; i < nums.size(); i++) {
+        sum += nums[i];
+
+        if (sum == k) {
+            maxLength = i + 1;  // Subarray from index 0 to i has sum k
+        }
+
+        if (prefixSum.find(sum - k) != prefixSum.end()) {
+            maxLength = max(maxLength, i - prefixSum[sum - k]);
+        }
+
+        // Store the current prefix sum only if it's not already in the map
+        if (prefixSum.find(sum) == prefixSum.end()) {
+            prefixSum[sum] = i;
+        }
+    }
+
+    return maxLength;
+}
