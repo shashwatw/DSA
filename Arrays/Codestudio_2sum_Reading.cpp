@@ -12,6 +12,7 @@ string read(int n, vector<int> book, int target)
        if(mpp.find(more) != mpp.end())
        {
            return "YES"; //return (mpp[more], i)
+           
        }
        mpp[a] = i;
        
