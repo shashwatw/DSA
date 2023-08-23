@@ -1,12 +1,18 @@
 {
-    "files.associations": {
-        "*.tsx": "javascript",
-        "ostream": "cpp",
-        "iostream": "cpp",
-        "vector": "cpp",
-        "cmath": "cpp",
-        "bitset": "cpp",
-        "chrono": "cpp",
-        "algorithm": "cpp"
-    }
+  "files.associations": {
+    "*.tsx": "javascript",
+    "ostream": "cpp",
+    "iostream": "cpp",
+    "vector": "cpp",
+    "cmath": "cpp",
+    "bitset": "cpp",
+    "chrono": "cpp",
+    "algorithm": "cpp",
+    "*.tcc": "cpp",
+    "deque": "cpp",
+    "forward_list": "cpp",
+    "list": "cpp",
+    "string": "cpp",
+    "valarray": "cpp"
+  }
 }
