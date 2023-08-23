@@ -1,4 +1,4 @@
-//https://www.codingninjas.com/studio/problems/valid-parentheses_795104?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf&leftPanelTab=0
+// https://www.codingninjas.com/studio/problems/valid-parentheses_795104?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf&leftPanelTab=0
 
 #include <stack>
 #include <string>
