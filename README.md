@@ -1,4 +1,4 @@
-# Coding Practice Repository
+# Coding  Practice  Repository
 
 Welcome to my coding practice repository! Here, I document my solutions to various coding problems from LeetCode, CodeStudio, CodeChef, and the Striver SDE Sheet. This repository serves as a personal reference and learning tool for tracking my coding progress.
 
