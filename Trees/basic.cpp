@@ -85,6 +85,18 @@ void inorder(node *root)
     inorder(root->right);
 }
 
+void preorder(node *root)
+{
+    if (root == NULL)
+    {
+        return;
+    }
+
+    cout << root->data << " ";
+    preorder(root->left);
+    preorder(root->right);
+}
+
 int main()
 {
 
@@ -95,7 +107,20 @@ int main()
     // 1 3 7 -1 -1 11 -1 -1 5 17 -1 -1 -1
     // level order traversal
     levelOrderTraversal(root);
+
+    cout << endl;
+
+    cout << "Inorder traversal: " << endl;
+
     // inorder traversal
     inorder(root);
+
+    cout << endl;
+
+    cout << "Preorder traversal: " << endl;
+
+    // preorder traversal
+    preorder(root);
+
     return 0;
 }
