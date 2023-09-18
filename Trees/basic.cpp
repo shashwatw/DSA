@@ -97,6 +97,18 @@ void preorder(node *root)
     preorder(root->right);
 }
 
+void postorder(node *root)
+{
+    if (root == NULL)
+    {
+        return;
+    }
+
+    postorder(root->left);
+    postorder(root->right);
+    cout << root->data << " ";
+}
+
 int main()
 {
 
@@ -121,6 +133,13 @@ int main()
 
     // preorder traversal
     preorder(root);
+
+    cout << endl;
+
+    cout << "Postorder traversal: " << endl;
+
+    // postorder traversal
+    postorder(root);
 
     return 0;
 }
