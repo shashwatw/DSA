@@ -36,7 +36,7 @@ I'm solving problems in the following programming languages:
 You can navigate through the repository and explore the solutions organized by problem source and topic. Each problem directory typically contains:
 
 - A link to the problem
-- With the solution
+- With its solution
 
 Feel free to fork this repository, clone it, or simply browse through the solutions as needed.
 
