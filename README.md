@@ -1,6 +1,6 @@
 # Coding  Practice  Repository
 
-Welcome to my coding practice repository! Here, I document my solutions to various coding problems from LeetCode, CodeStudio, CodeChef, and the Striver SDE Sheet. This repository serves as a personal reference and learning tool for tracking my coding progress.
+Welcome to my coding practice repository! Here, I document my solutions to various coding problems from LeetCode, Geeks for Geeks, CodeStudio, CodeChef, and the Striver SDE Sheet. This repository serves as a personal reference and learning tool for tracking my coding progress.
 
 ## Table of Contents
 
