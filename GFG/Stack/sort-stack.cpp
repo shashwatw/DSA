@@ -86,4 +86,3 @@ void SortedStack::sort()
         tempStack.pop();
     }
 }
-e
