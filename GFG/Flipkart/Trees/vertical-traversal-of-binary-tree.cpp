@@ -109,7 +109,10 @@ public:
     {
         // Your code here
         map<int, map<int, vector<int>>> nodes;
+        // position, level, {level nodes}
+
         queue<pair<Node *, pair<int, int>>> todo;
+        // Node, {position, level}
 
         todo.push({root, {0, 0}});
 
