@@ -24,27 +24,11 @@ public:
         }
         return hght;
     }
-
     int rightHeight(TreeNode *root)
-    {
-        int hght = 0;
-
-        while (root)
-        {
-            hght++;
-            root = root->right;
-        }
-        return hght;
-    }
-
-    int countNodes(TreeNode *root)
-    {
-        int lh = leftHeight(root);
-        int rh = rightHeight(root);
-
-        if (lh == rh)
-            return (1 << lh) - 1;
-
-        return 1 + countNodes(root->left) + countNodes(root->right);
-    }
+        root = root -> right;
+    int countNodes(TreeNode *root) int lh = leftHeight(root);
+    int rh = rightHeight(root);
+    if (lh == rh)
+        return (1 << lh) - 1;
+    return 1 + countNodes(root->left) + countNodes(root->right);
 };
