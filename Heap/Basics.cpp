@@ -137,7 +137,7 @@ int main()
                   52,
                   50};
     int n = 5;
-
+    // Kisi bhi heap mein n/2 + 1 se n tk saari nodes leaf nodes hoti hai so they are itself an individual heap
     for (int i = n / 2; i > 0; i--)
     {
         heapify(arr, n, i);
