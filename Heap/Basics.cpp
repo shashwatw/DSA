@@ -4,6 +4,7 @@
 // TC - O(logn) -time and space
 
 #include <iostream>
+#include <queue>
 using namespace std;
 
 class heap
@@ -72,12 +73,12 @@ public:
             int leftChild = 2 * i;
             int rightChild = 2 * i + 1;
 
-            if (leftChild < size && arr[i] < arr[leftChild])
+            if (leftChild <= size && arr[i] < arr[leftChild])
             {
                 swap(arr[i], arr[leftChild]);
                 i = leftChild;
             }
-            else if (rightChild < size && arr[i] < arr[rightChild])
+            else if (rightChild <= size && arr[i] < arr[rightChild])
             {
                 swap(arr[i], arr[rightChild]);
                 i = rightChild;
@@ -97,12 +98,13 @@ void heapify(int arr[], int n, int i)
     int leftChild = 2 * i;
     int rightChild = 2 * i + 1;
 
-    if (leftChild < n && arr[largest] < arr[leftChild])
+    // for 1 based indexing <=n and for 0 based indexing <n
+    if (leftChild <= n && arr[largest] < arr[leftChild])
     {
         largest = leftChild;
     }
 
-    if (rightChild < n && arr[largest] < arr[rightChild])
+    if (rightChild <= n && arr[largest] < arr[rightChild])
     {
         largest = rightChild;
     }
@@ -111,6 +113,18 @@ void heapify(int arr[], int n, int i)
     {
         swap(arr[largest], arr[i]);
         heapify(arr, n, largest);
+    }
+}
+
+void heapSort(int arr[], int n)
+{
+    int size = n;
+    while (size > 1)
+    {
+        swap(arr[1], arr[size]);
+        size--;
+
+        heapify(arr, size, 1);
     }
 }
 
@@ -138,6 +152,8 @@ int main()
                   50};
     int n = 5;
     // Kisi bhi heap mein n/2 + 1 se n tk saari nodes leaf nodes hoti hai so they are itself an individual heap
+
+    // heap creation
     for (int i = n / 2; i > 0; i--)
     {
         heapify(arr, n, i);
@@ -151,5 +167,74 @@ int main()
         cout << arr[i] << " ";
     }
     cout << endl;
+
+    // heap sort
+    heapSort(arr, n);
+    cout << endl
+         << "Printing the array after Sorting: ";
+    for (int i = 1; i <= n; i++)
+    {
+        cout << arr[i] << " ";
+    }
+    cout << endl;
+
+    // Max Heap using priotity Queue
+
+    cout << endl
+         << "MaxHeap using priority queue: " << endl;
+    priority_queue<int> maxHeap;
+
+    maxHeap.push(4);
+    maxHeap.push(2);
+    maxHeap.push(5);
+    maxHeap.push(3);
+
+    cout << "Top element: " << maxHeap.top() << endl;
+    maxHeap.pop();
+    cout << "Top element: " << maxHeap.top() << endl;
+    maxHeap.pop();
+    cout << "Top element: " << maxHeap.top() << endl;
+    maxHeap.pop();
+
+    cout << "Size is " << maxHeap.size();
+
+    if (maxHeap.empty())
+    {
+        cout << "MaxHeap is empty !" << endl;
+    }
+    else
+    {
+        cout << "MaxHeap is not empty !" << endl;
+    }
+
+    // Min heap using priority queue
+
+    cout << endl
+         << "MinHeap using priority queue: " << endl;
+    priority_queue<int, vector<int>, greater<int>> minHeap;
+
+    minHeap.push(4);
+    minHeap.push(2);
+    minHeap.push(5);
+    minHeap.push(3);
+
+    cout << "Top element: " << minHeap.top() << endl;
+    minHeap.pop();
+    cout << "Top element: " << minHeap.top() << endl;
+    minHeap.pop();
+    cout << "Top element: " << minHeap.top() << endl;
+    minHeap.pop();
+
+    cout << "Size is " << minHeap.size();
+
+    if (minHeap.empty())
+    {
+        cout << "MinHeap is empty !" << endl;
+    }
+    else
+    {
+        cout << "MinHeap is not empty !" << endl;
+    }
+
     return 0;
 }
