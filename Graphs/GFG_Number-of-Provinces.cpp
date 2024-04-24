@@ -90,12 +90,18 @@ int main()
 }
 // } Driver Code Ends
 
-//* LEETCODE - Striver Approach
+//* LEETCODE - Striver Approach (DFS)
 
 //& by DFS, humne first adjacency matrix ko convert kiya in adjacency list
 //& then we have made a new vis vector.
 //& when disconnection is obtained we will call dfs and also increment a counter to track disconnections
 //& Return counts as final they are the total disconnections or provinces obtained
+
+//~ Space complexity - O(n) + O(n)  (Vis array and worst case recur. stack space....ignoring adjacency list space)
+//~ Time Complexity - O(n) + O(V + 2E)  (n for the for loop and inside we are calling dfs in total n times only
+//~ as we are checking for if its visited or not and in total n dfs calls there fore O(V+2E) )
+
+//! TC - O(n)  SC  -  O(n)
 
 class Solution
 {
@@ -141,6 +147,68 @@ public:
             {
                 cnt++;
                 dfs(i, adjLs, vis);
+            }
+        }
+        return cnt;
+    }
+};
+
+//* LEETCODE - Striver Approach (BFS)
+class Solution
+{
+public:
+    void bfs(int start, vector<int> adjLs[], vector<int> &vis)
+    {
+        queue<int> q;
+        q.push(start);
+        vis[start] = 1; // Mark the starting node as visited
+
+        while (!q.empty())
+        {
+            int node = q.front();
+            q.pop();
+
+            // Traverse all neighbors of the current node
+            for (int neighbor : adjLs[node])
+            {
+                // If the neighbor is not visited, mark it as visited and add it to the queue
+                if (!vis[neighbor])
+                {
+                    vis[neighbor] = 1;
+                    q.push(neighbor);
+                }
+            }
+        }
+    }
+
+    int findCircleNum(vector<vector<int>> &isConnected)
+    {
+        int V = isConnected[0].size();
+
+        vector<int> adjLs[V];
+
+        for (int i = 0; i < V; i++)
+        {
+            for (int j = 0; j < V; j++)
+            {
+                if (isConnected[i][j] == 1 && i != j)
+                {
+                    adjLs[i].push_back(j);
+                    adjLs[j].push_back(i);
+                }
+            }
+        }
+
+        vector<int> vis(V, 0);
+
+        int cnt = 0;
+
+        for (int i = 0; i < V; i++)
+        {
+            if (!vis[i])
+            {
+                cnt++;
+                bfs(i, adjLs, vis);
             }
         }
         return cnt;
