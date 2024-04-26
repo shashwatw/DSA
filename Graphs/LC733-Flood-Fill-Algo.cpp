@@ -51,3 +51,52 @@ public:
         return ans;
     }
 };
+
+//^ Approach 2 using BFS
+
+class Solution
+{
+private:
+    void bfs(int row, int col, vector<vector<int>> &ans, vector<vector<int>> &image, int newColor, int delRow[], int delCol[], int iniColor)
+    {
+        ans[row][col] = newColor;
+        queue<pair<int, int>> q;
+        q.push({row, col});
+
+        int n = image.size();
+        int m = image[0].size();
+
+        while (!q.empty())
+        {
+            int sr = q.front().first;
+            int sc = q.front().second;
+            q.pop();
+
+            for (int i = 0; i < 4; i++)
+            {
+                int nrow = sr + delRow[i]; // Use index i to access delRow and delCol arrays
+                int ncol = sc + delCol[i]; // Use index i to access delRow and delCol arrays
+
+                if (nrow >= 0 && nrow < n && ncol >= 0 && ncol < m && image[nrow][ncol] == iniColor && ans[nrow][ncol] != newColor)
+                {
+                    ans[nrow][ncol] = newColor;
+                    q.push({nrow, ncol});
+                }
+            }
+        }
+    }
+
+public:
+    vector<vector<int>> floodFill(vector<vector<int>> &image, int sr, int sc,
+                                  int color)
+    {
+        int iniColor = image[sr][sc];
+        vector<vector<int>> ans = image;
+
+        int delRow[] = {-1, 0, 1, 0};
+        int delCol[] = {0, 1, 0, -1};
+
+        bfs(sr, sc, ans, image, color, delRow, delCol, iniColor);
+        return ans;
+    }
+};
