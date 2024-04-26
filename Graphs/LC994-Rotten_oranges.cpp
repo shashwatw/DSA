@@ -14,6 +14,9 @@
 //* Finally just check that whether any fresh orange is not left in our vis --> if left --> return -1
 //* else return time
 
+//& Space Complexity - O(n*m)
+//& Time Complexity - O(n*m)
+
 class Solution
 {
 public:
