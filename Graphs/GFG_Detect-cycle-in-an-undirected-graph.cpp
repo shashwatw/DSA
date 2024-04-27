@@ -8,6 +8,8 @@
 //* When we visit a already visited node we will check that whether that node is not a paarent of source node
 //* If it is then do not consider a loop else consider a loop
 
+//& APPROACH 1 (Using BFS)
+//^ **********************************************************************************************************************************
 class Solution
 {
 private:
@@ -55,6 +57,50 @@ public:
                 {
                     return true;
                 }
+            }
+        }
+        return false;
+    }
+};
+
+//& APPROACH 2 (Using DFS)
+//^ **********************************************************************************************************************************
+
+class Solution
+{
+public:
+    // Function to detect cycle in an undirected graph.
+    bool dfs(int node, int parent, int vis[], vector<int> adj[])
+    {
+        vis[node] = 1;
+
+        for (auto adjacentNode : adj[node])
+        {
+            if (!vis[adjacentNode])
+            {
+                if (dfs(adjacentNode, node, vis, adj) == true)
+                    return true;
+            }
+            else
+            {
+                if (adjacentNode != parent)
+                    return true;
+            }
+        }
+        return false;
+    }
+
+    bool isCycle(int V, vector<int> adj[])
+    {
+        // Code here
+        int vis[V] = {0};
+
+        for (int i = 0; i < V; i++)
+        {
+            if (!vis[i])
+            {
+                if (dfs(i, -1, vis, adj) == true)
+                    return true;
             }
         }
         return false;
