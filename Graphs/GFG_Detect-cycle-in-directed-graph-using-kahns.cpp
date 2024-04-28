@@ -1,17 +1,24 @@
-// https://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1
+//^ https://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1
 
-//{ Driver Code Starts
-#include <bits/stdc++.h>
-using namespace std;
+//* For intuition check Kahn's algo
+//* It does not work for Cyclic graph therefore won't be able to produce a V length topo ordering
+//* For checking how much length ordering it can produce we have maintained a cnt
+//* If it is able to maintain V length topo ordering therefore there does not exists a cycle i.e. return false
+//* Else there exists a cycle return true
 
-// } Driver Code Ends
+//& SC - O(N)
+//& TC - O(V+E)
+
+//~ CODE using Kahn's(BFS):
 class Solution
 {
 public:
     // Function to detect cycle in a directed graph.
     bool isCyclic(int V, vector<int> adj[])
     {
+        // code here
         int indegree[V] = {0};
+
         for (int i = 0; i < V; i++)
         {
             for (auto it : adj[i])
@@ -21,6 +28,7 @@ public:
         }
 
         queue<int> q;
+
         for (int i = 0; i < V; i++)
         {
             if (indegree[i] == 0)
@@ -30,13 +38,12 @@ public:
         }
 
         int cnt = 0;
+
         while (!q.empty())
         {
             int node = q.front();
             q.pop();
             cnt++;
-            // node is in your Topo sort
-            // So please remove it from the indegree
 
             for (auto it : adj[node])
             {
@@ -48,36 +55,7 @@ public:
 
         if (cnt == V)
             return false;
-        return true;
+        else
+            return true;
     }
 };
-
-//{ Driver Code Starts.
-
-int main()
-{
-
-    int t;
-    cin >> t;
-    while (t--)
-    {
-        int V, E;
-        cin >> V >> E;
-
-        vector<int> adj[V];
-
-        for (int i = 0; i < E; i++)
-        {
-            int u, v;
-            cin >> u >> v;
-            adj[u].push_back(v);
-        }
-
-        Solution obj;
-        cout << obj.isCyclic(V, adj) << "\n";
-    }
-
-    return 0;
-}
-
-// } Driver Code Ends
