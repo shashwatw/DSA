@@ -5,6 +5,8 @@
 //* Its basically similar to other algos
 //* Go through code
 
+//& TC - ElogV { E - No of edges and V - No of nodes}
+
 class Solution
 {
 public:
