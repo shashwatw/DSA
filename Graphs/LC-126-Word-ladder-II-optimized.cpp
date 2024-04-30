@@ -2,7 +2,7 @@
 
 //& Reference Video : https://www.youtube.com/watch?v=AD4SFl7tu7I&list=PLgUwDviBIf0oE3gA41TKO2H5bHpPd7fzn&index=31
 
-//* The approach used for this problem is based on the concepts of Competitive Programming, so it is highly advised to read it just for the sake of improving your logic. This is not intended to be used in an interview, for that purpose you can easily explain the approach used in the Word ladder - II problem
+//* The approach used for this problem is based on the concepts of Competitive Programming, so it is highly advised to read it just for the sake of improving your logic. This is not intended to be used in an interview, for that purpose you can easily explain the approach used in the Word ladder - II problem.
 
 class Solution
 {
