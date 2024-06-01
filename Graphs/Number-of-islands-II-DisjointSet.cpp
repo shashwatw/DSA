@@ -1,0 +1,100 @@
+//* https://www.geeksforgeeks.org/problems/number-of-islands/1
+
+// User function Template for C++
+
+class DisjointSet
+{
+    vector<int> parent, size;
+
+public:
+    DisjointSet(int n)
+    {
+        parent.resize(n + 1);
+        size.resize(n + 1);
+        for (int i = 0; i <= n; i++)
+        {
+            parent[i] = i;
+            size[i] = 1;
+        }
+    }
+
+    int findUPar(int node)
+    {
+        if (node == parent[node])
+            return node;
+        return parent[node] = findUPar(parent[node]);
+    }
+
+    void unionBySize(int u, int v)
+    {
+        int ulp_u = findUPar(u);
+        int ulp_v = findUPar(v);
+        if (ulp_u == ulp_v)
+            return;
+        if (size[ulp_u] < size[ulp_v])
+        {
+            parent[ulp_u] = ulp_v;
+            size[ulp_v] += size[ulp_u];
+        }
+        else
+        {
+            parent[ulp_v] = ulp_u;
+            size[ulp_u] += size[ulp_v];
+        }
+    }
+};
+
+class Solution
+{
+public:
+    vector<int> numOfIslands(int n, int m, vector<vector<int>> &operators)
+    {
+        // code here
+        DisjointSet ds(n * m);
+        int vis[n][m];
+        memset(vis, 0, sizeof vis);
+        int cnt = 0;
+        vector<int> ans;
+
+        for (auto it : operators)
+        {
+            int row = it[0];
+            int col = it[1];
+
+            if (vis[row][col] == 1)
+            {
+                ans.push_back(cnt);
+                continue;
+            }
+
+            vis[row][col] = 1;
+            cnt++;
+
+            int dr[] = {-1, 0, 1, 0};
+            int dc[] = {0, 1, 0, -1};
+
+            for (int ind = 0; ind < 4; ind++)
+            {
+                int adjRow = row + dr[ind];
+                int adjCol = col + dc[ind];
+
+                if (adjRow >= 0 && adjRow < n && adjCol >= 0 && adjCol < m)
+                {
+                    if (vis[adjRow][adjCol] == 1)
+                    {
+                        int nodeNo = row * m + col;
+                        int adjNodeNo = adjRow * m + adjCol;
+
+                        if (ds.findUPar(nodeNo) != ds.findUPar(adjNodeNo))
+                        {
+                            cnt--;
+                            ds.unionBySize(nodeNo, adjNodeNo);
+                        }
+                    }
+                }
+            }
+            ans.push_back(cnt);
+        }
+        return ans;
+    }
+};
