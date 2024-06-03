@@ -1,4 +1,4 @@
-// https://www.geeksforgeeks.org/problems/two-repeated-elements-1587115621/1
+// https://www.geeksforgeeks.org/problems/two-repeated-ewlements-1587115621/1
 
 class Solution
 {
