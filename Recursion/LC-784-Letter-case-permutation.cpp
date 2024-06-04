@@ -16,7 +16,7 @@ public:
         string op1 = op;
         string op2 = op;
 
-        if (tolower(ip[0]) == toupper(ip[0]))
+        if (tolower(ip[0]) == toupper(ip[0])) // or  if(!isalpha(ip[0])) //to check directly it is not alphabet
         {
             op1 += ip[0];
             ip.erase(ip.begin() + 0);
