@@ -1,4 +1,5 @@
-//*https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1
+//*https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1\
+//^ Reference : https://www.youtube.com/watch?v=ntCGbPMeqgg&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=5
 
 //^ APPROACH 1 - RECURSION
 class Solution
