@@ -12,7 +12,7 @@ public:
             cum_sum += a[i];
         }
 
-        // calculating initial value and setting max as initial value
+        // calculating initial val and setting max as initial value
         long long initial_val = 0;
         long long max = 0;
         for (long long i = 0; i < n; i++)
