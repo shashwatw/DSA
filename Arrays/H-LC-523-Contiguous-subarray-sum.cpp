@@ -1,5 +1,5 @@
 //*https://leetcode.com/problems/continuous-subarray-sum/description/
-//^ Refer from LC Editorial
+//^ Refer from LC Editorial Section
 
 class Solution
 {
