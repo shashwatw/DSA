@@ -20,7 +20,8 @@
 
 ### Unbounded Knapsack and Problems Based on It
 
-1. **Rod Cutting** [Click Here]()
-2. **Coin Change 1** [Click Here]()
-3. **Coin Change 2** [Click Here]()
-4. **Maximum Ribbon Cut** [Click Here]()
+1. **Unbounded Knapsack** [Click Here](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/unbounded-knapsack.cpp)
+2. **Rod Cutting** [Click Here]()
+3. **Coin Change 1** [Click Here]()
+4. **Coin Change 2** [Click Here]()
+5. **Maximum Ribbon Cut** [Click Here]()
