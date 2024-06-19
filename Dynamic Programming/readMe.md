@@ -25,3 +25,20 @@
 3. **Coin Change 1** [Click Here](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/Coin-Changs-I.cpp)
 4. **Coin Change 2** [Click Here](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/Coin-Change-II-Min-Num-of-coins.cpp)
 5. **Maximum Ribbon Cut** [Click Here](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/max-ways-to-cut-ribbon.cpp)
+
+### Longest Common Subsequence and Problems Based on It
+
+1. **Longest Common Substring** [Click Here](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+2. **Print Longest Common Subsequence (LCS)** [Click Here](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+3. **Shortest Common Supersequence (SCS)** [Click Here](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+4. **Print SCS** [Click Here](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+5. **Minimum Number of Insertions And Deletions a->b** [Click Here](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+6. **Longest Repeating Subsequence** [Click Here](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+7. **Length of Longest Subsequence of a which is Substring in b** [Click Here](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+8. **Subsequence Pattern Matching** [Click Here](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+9. **Count How Many Times a appear as Subsequence in b** [Click Here](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+10. **Longest Palindromic Subsequence** [Click Here](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+11. **Longest Palindromic Substring** [Click Here](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+12. **Count of the Palindromic Substring** [Click Here](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+13. **Minimum Number of Deletions in a String to make it a Palindrome** [Click Here](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+14. **Minimum Number of Insertions in a String to make it a Palindrome** [Click Here](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
