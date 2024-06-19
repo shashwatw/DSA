@@ -24,4 +24,4 @@
 2. **Rod Cutting** [Click Here](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/Rod-cutting.cpp)
 3. **Coin Change 1** [Click Here](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/Coin-Changs-I.cpp)
 4. **Coin Change 2** [Click Here](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/Coin-Change-II-Min-Num-of-coins.cpp)
-5. **Maximum Ribbon Cut** [Click Here]()
+5. **Maximum Ribbon Cut** [Click Here](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/max-ways-to-cut-ribbon.cpp)
