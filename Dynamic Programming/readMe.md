@@ -34,7 +34,7 @@
 
 ### 📏 <span style="color:#E74C3C;">[Longest Common Subsequence and Problems Based on It](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/length-of-longest-common-subsequence.cpp)</span>
 
-1. **Longest Common Substring** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/longest-common-substring,cpp)
+1. **Longest Common Substring** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/longest-common-substring.cpp)
 2. **Print Longest Common Subsequence (LCS)** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
 3. **Shortest Common Supersequence (SCS)** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
 4. **Print SCS** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
