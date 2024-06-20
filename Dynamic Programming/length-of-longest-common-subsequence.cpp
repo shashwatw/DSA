@@ -63,3 +63,35 @@ public:
         return lcshelper(str1, str2, n, m, tab);
     }
 };
+
+//*                APPROACH 3 -- TABULATION
+
+// function to find longest common subsequence
+
+class Solution
+{
+public:
+    // Function to find the length of longest common subsequence in two strings.
+    int lcs(int n, int m, string str1, string str2)
+    {
+        // your code here
+        // initialised rows and cols with 0 i.e. Base condn
+        vector<vector<int>> tab(n + 1, vector<int>(m + 1, 0));
+
+        for (int i = 1; i <= n; i++)
+        {
+            for (int j = 1; j <= m; j++)
+            {
+                if (str1[i - 1] == str2[j - 1])
+                {
+                    tab[i][j] = 1 + tab[i - 1][j - 1];
+                }
+                else
+                {
+                    tab[i][j] = max(tab[i - 1][j], tab[i][j - 1]);
+                }
+            }
+        }
+        return tab[n][m];
+    }
+};
