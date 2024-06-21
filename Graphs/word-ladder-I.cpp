@@ -49,3 +49,52 @@ public:
         return 0;
     }
 };
+
+//* BRUTE FORCE APPROACH (infeasible here for larger inputs)
+
+class Solution
+{
+public:
+    int minLength = INT_MAX;
+
+    // Helper function to recursively try all transformations
+    void bruteForce(string currentWord, string endWord, unordered_set<string> &wordSet, int steps)
+    {
+        if (currentWord == endWord)
+        {
+            minLength = min(minLength, steps);
+            return;
+        }
+
+        string originalWord = currentWord;
+        for (int i = 0; i < currentWord.size(); ++i)
+        {
+            char originalChar = currentWord[i];
+            for (char c = 'a'; c <= 'z'; ++c)
+            {
+                if (c == originalChar)
+                    continue;
+                currentWord[i] = c;
+                if (wordSet.find(currentWord) != wordSet.end())
+                {
+                    wordSet.erase(currentWord);
+                    bruteForce(currentWord, endWord, wordSet, steps + 1);
+                    wordSet.insert(currentWord); // Backtrack
+                }
+            }
+            currentWord[i] = originalChar; // Restore original word
+        }
+    }
+
+    int ladderLength(string beginWord, string endWord, vector<string> &wordList)
+    {
+        unordered_set<string> wordSet(wordList.begin(), wordList.end());
+        if (wordSet.find(endWord) == wordSet.end())
+        {
+            return 0; // If endWord is not in wordList, no transformation is possible
+        }
+
+        bruteForce(beginWord, endWord, wordSet, 1);
+        return minLength == INT_MAX ? 0 : minLength;
+    }
+};
