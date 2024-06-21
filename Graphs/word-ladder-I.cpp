@@ -52,6 +52,32 @@ public:
 
 //* BRUTE FORCE APPROACH (infeasible here for larger inputs)
 
+//^ Explanation:
+//^ Initialization:
+
+//^ A set wordSet is created from the wordList for quick lookup.
+//^ minLength is initialized to INT_MAX to track the minimum length of the transformation sequence.
+
+//^& Brute Force Helper Function:
+
+//^ The bruteForce function tries all possible one-letter transformations recursively.
+//^ If the current word matches the endWord, the number of steps is compared with minLength.
+//^ The function iterates over each character of the current word, changing it to every other possible character from 'a' to 'z'.
+//^ If the transformed word is in the wordSet, it is removed from the set (to avoid cycles) and the function recursively tries the next transformation.
+//^ After exploring all possibilities, the word is added back to the set (backtracking).
+
+//& Main Function:
+
+//^ If endWord is not in the wordList, it returns 0 as no transformation is possible.
+//^ Calls the bruteForce function starting from the beginWord.
+
+//& Output:
+
+//^ If minLength remains INT_MAX, it means no transformation sequence was found, so it returns 0.
+//^ Otherwise, it returns the minLength found.
+//! Note:
+//! This brute force approach is not practical for larger inputs because it generates and checks all possible sequences, leading to exponential time complexity. The BFS approach provided earlier is significantly more efficient and suitable for this problem.
+
 class Solution
 {
 public:
