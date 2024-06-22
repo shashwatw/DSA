@@ -47,4 +47,4 @@
 11. **Longest Palindromic Substring** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
 12. **Count of the Palindromic Substring** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
 13. **Minimum Number of Deletions in a String to make it a Palindrome** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/min-number-of-deletions.cpp)
-14. **Minimum Number of Insertions in a String to make it a Palindrome** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+14. **Minimum Number of Insertions in a String to make it a Palindrome** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/LC-1312-Min-insertion-steps-to-make-string-palindrome.cpp)
