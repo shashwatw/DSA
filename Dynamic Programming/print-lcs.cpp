@@ -9,7 +9,7 @@ public:
 
         int m = s.size();
         int n = t.size();
-        vector<vector<int>> tab(m + 1, vectora<int>(n + 1, 0));
+        vector<vector<int>> tab(m + 1, vector<int>(n + 1, 0));
 
         lcs(s, t, m, n, tab);
 
@@ -28,7 +28,7 @@ public:
             {
                 if (tab[i][j - 1] > tab[i - 1][j])
                 {
-                    j--
+                    j--;
                 }
                 else
                 {
