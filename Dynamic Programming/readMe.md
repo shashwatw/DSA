@@ -48,3 +48,22 @@
 12. **Count of the Palindromic Substring** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
 13. **Minimum Number of Deletions in a String to make it a Palindrome** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/min-number-of-deletions.cpp)
 14. **Minimum Number of Insertions in a String to make it a Palindrome** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/LC-1312-Min-insertion-steps-to-make-string-palindrome.cpp)
+
+---
+
+### 🎒 <span style="color:#2ECC71;">Matrix Chain Multiplication and Problems Based on It</span>
+
+1. **Matrix Chain Multiplication (MCM)** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+
+   - 🌀 Recursive ✔
+   - 🌀 Memoization (Bottom Up) ✔
+   - 🌀 Tabulation ❌ --> confusing
+
+2. **Printing MCM** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+3. **Evaluate Expression to True / Boolean Parenthesis** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+4. **Minimum / Maximum Value of an Expression** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+5. **Palindrome Partitioning** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+6. **Scramble String** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+7. **Egg Dropping Problem** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+
+---
