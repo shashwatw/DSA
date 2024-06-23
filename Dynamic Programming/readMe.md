@@ -55,7 +55,7 @@
 
 1. **Matrix Chain Multiplication (MCM)** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
 
-   - 🌀 Format and template ✔ [🔗](https://github.com/shashwatw/DSA/blob/master/MCM-format.cpp)
+   - 🌀 Format and template ✔ [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/MCM-format.cpp)
    - 🌀 Recursive ✔
    - 🌀 Memoization (Bottom Up) ✔
    - 🌀 Tabulation ❌ --> confusing
