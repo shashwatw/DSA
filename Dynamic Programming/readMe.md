@@ -44,7 +44,7 @@
 8. **Subsequence Pattern Matching** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/LC-392-Is-subsequence.cpp)
 9. **Count How Many Times a appear as Subsequence in b** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/string-subsequence.cpp)
 10. **Longest Palindromic Subsequence** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/LC-516-Longest-palindromic-sequence.cpp)
-11. **Longest Palindromic Substring** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+11. **Longest Palindromic Substring** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/longest-palindromic-substring.cpp)
 12. **Count of the Palindromic Substring** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
 13. **Minimum Number of Deletions in a String to make it a Palindrome** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/min-number-of-deletions.cpp)
 14. **Minimum Number of Insertions in a String to make it a Palindrome** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/LC-1312-Min-insertion-steps-to-make-string-palindrome.cpp)
