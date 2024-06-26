@@ -53,7 +53,7 @@
 
 ### 🎒 <span style="color:#2ECC71;">Matrix Chain Multiplication and Problems Based on It</span>
 
-1. **Matrix Chain Multiplication (MCM)** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+1. **Matrix Chain Multiplication (MCM)**
 
    - 🌀 Format and template ✔ [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/MCM-format.cpp)
    - 🌀 Recursive ✔
@@ -64,7 +64,7 @@
 3. **Evaluate Expression to True / Boolean Parenthesization** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/Boolean-Parenthesization.cpp)
 4. **Minimum / Maximum Value of an Expression** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
 5. **Palindrome Partitioning** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/Palindromic-partitioning.cpp)
-6. **Scramble String** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+6. **Scramble String** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/Scrambled-Strings.cpp)
 7. **Egg Dropping Problem** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
 
 ---
