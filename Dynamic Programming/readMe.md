@@ -61,7 +61,7 @@
    - 🌀 Tabulation ❌ --> confusing
 
 2. **Printing MCM** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/Matrix-Chain-Multiplication.cpp)
-3. **Evaluate Expression to True / Boolean Parenthesis** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+3. **Evaluate Expression to True / Boolean Parenthesization** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/Boolean-Parenthesization.cpp)
 4. **Minimum / Maximum Value of an Expression** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
 5. **Palindrome Partitioning** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/Palindromic-partitioning.cpp)
 6. **Scramble String** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
