@@ -13,7 +13,7 @@
 //* And finally we need min attempt as ans so we will update minAns variable accordingly
 //* Finally we will return min attempts
 
-//& -----------------------RECURSIVE APPROACH -------------------------------------------
+//& -----------------------RECURSIVE APPROACH (BRUTE) -------------------------------------------
 
 class Solution
 {
@@ -47,7 +47,7 @@ public:
     }
 };
 
-//& -----------------------MEMOIZED APPROACH -------------------------------------------
+//& -----------------------MEMOIZED APPROACH (Better)-------------------------------------------
 
 class Solution
 {
@@ -90,6 +90,80 @@ private:
             }
 
             int tempAns = 1 + max(breakEgg, noBreakEgg);
+            minAns = min(minAns, tempAns);
+        }
+        return memo[e][f] = minAns;
+    }
+
+public:
+    // Function to find minimum number of attempts needed in
+    // order to find the critical floor.
+    int eggDrop(int n, int k)
+    {
+        // your code here
+        // n -> (nums of eggs)
+        // k -> (num of floors)
+        memset(memo, -1, sizeof(memo));
+        return solve(n, k);
+    }
+};
+
+//& -----------------------MEMOIZED through Binary Search APPROACH (Optimal)-------------------------------------------
+
+class Solution
+{
+    int memo[201][201];
+
+private:
+    int solve(int e, int f)
+    {
+        if (f == 0 || f == 1)
+            return f;
+        if (e == 1)
+            return f;
+
+        if (memo[e][f] != -1)
+            return memo[e][f];
+
+        int minAns = INT_MAX;
+
+        int low = 0, high = f;
+        while (low <= high)
+        {
+            int mid = low + (high - low) / 2;
+
+            int breakEgg, noBreakEgg;
+            if (memo[e - 1][mid - 1] != -1)
+            {
+                breakEgg = memo[e - 1][mid - 1];
+            }
+            else
+            {
+                breakEgg = solve(e - 1, mid - 1);
+                memo[e - 1][mid - 1] = breakEgg;
+            }
+
+            if (memo[e][f - mid] != -1)
+            {
+                noBreakEgg = memo[e][f - mid];
+            }
+            else
+            {
+                noBreakEgg = solve(e, f - mid);
+                memo[e][f - mid] = noBreakEgg;
+            }
+
+            int tempAns = 1 + max(breakEgg, noBreakEgg);
+
+            if (breakEgg > noBreakEgg)
+            {
+                high = mid - 1;
+            }
+            else
+            {
+                low = mid + 1;
+            }
+
             minAns = min(minAns, tempAns);
         }
         return memo[e][f] = minAns;
