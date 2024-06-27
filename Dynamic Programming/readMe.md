@@ -51,7 +51,7 @@
 
 ---
 
-### 🎒 <span style="color:#2ECC71;">Matrix Chain Multiplication and Problems Based on It</span>
+### ⛓ <span style="color:#2ECC71;">Matrix Chain Multiplication and Problems Based on It</span>
 
 1. **Matrix Chain Multiplication (MCM)**
 
@@ -68,3 +68,17 @@
 7. **Egg Dropping Problem** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/Egg-Dropping-problem.cpp)
 
 ---
+
+### 🌳 <span style="color:#2ECC71;">Dynamic Programming on Trees and Problems Based on It</span>
+
+1. **General Syntax**
+
+   - 🌀 Format and template ✔ [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+   <!-- - 🌀 Recursive ✔
+   - 🌀 Memoization (Bottom Up) ✔
+   - 🌀 Tabulation ❌ --> confusing -->
+
+2. **Diameter of a Binary Tree** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+3. **Maximum Path Sum from any Node to any** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+4. **Maximum Path Sum from leaf to leaf** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+5. **Diameter of N-ary Tree** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
