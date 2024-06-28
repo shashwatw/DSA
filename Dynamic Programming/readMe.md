@@ -75,7 +75,7 @@
 
    - 🌀 Format and template ✔ [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/Format-through-diameter-of-tree.cpp)
 
-2. **Diameter of a Binary Tree** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
-3. **Maximum Path Sum from any Node to any** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+2. **Diameter of a Binary Tree** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/Format-through-diameter-of-tree.cpp)
+3. **Maximum Path Sum from any Node to any** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/LC-124-Maximum-path-sum.cpp)
 4. **Maximum Path Sum from leaf to leaf** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
 5. **Diameter of N-ary Tree** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
