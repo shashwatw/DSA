@@ -28,3 +28,50 @@
 //     int res;
 //     return solve(root, res);
 // }
+
+//* ----------------- CODE ---------------------------------------
+
+//^ https://www.geeksforgeeks.org/problems/diameter-of-binary-tree/1
+
+/* Tree node structure  used in the program
+
+struct Node
+{
+    int data;
+    struct Node* left;
+    struct Node* right;
+
+    Node(int x){
+        data = x;
+        left = right = NULL;
+    }
+}; */
+
+class Solution
+{
+private:
+    int solve(Node *root, int &res)
+    {
+        if (root == nullptr)
+            return 0;
+
+        int l = solve(root->left, res);
+        int r = solve(root->right, res);
+
+        int temp = 1 + max(l, r);
+        int ans = max(temp, l + r + 1);
+        res = max(res, ans);
+
+        return temp;
+    }
+
+public:
+    // Function to return the diameter of a Binary Tree.
+    int diameter(Node *root)
+    {
+        // Your code here
+        int res = INT_MIN;
+        solve(root, res);
+        return res;
+    }
+};
