@@ -74,9 +74,6 @@
 1. **General Syntax**
 
    - 🌀 Format and template ✔ [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/Format-through-diameter-of-tree.cpp)
-   <!-- - 🌀 Recursive ✔
-   - 🌀 Memoization (Bottom Up) ✔
-   - 🌀 Tabulation ❌ -->
 
 2. **Diameter of a Binary Tree** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
 3. **Maximum Path Sum from any Node to any** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
