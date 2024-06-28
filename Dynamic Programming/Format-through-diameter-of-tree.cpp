@@ -25,6 +25,6 @@
 
 // int main()
 // {
-//     string res;
+//     int res;
 //     return solve(root, res);
 // }
