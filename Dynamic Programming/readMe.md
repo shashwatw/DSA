@@ -14,6 +14,7 @@
 
 1. **Climbing Stairs** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/climbing-stairs.cpp)
 2. **Frog Jump** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/Codestudio-Frog-Jump.cpp)
+3. **House Robber - I**[🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/House-Robber-I.cpp)
 
 ---
 
