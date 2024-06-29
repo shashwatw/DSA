@@ -55,3 +55,72 @@ public:
         return solve(nums, n - 1, dp); // Start solving from the last house
     }
 };
+
+//^ -------------------------------TABULATION------------------------------------------------
+
+class Solution
+{
+public:
+    int rob(vector<int> &nums)
+    {
+        int n = nums.size();
+        if (n == 0)
+            return 0; // No houses to rob
+        if (n == 1)
+            return nums[0]; // Only one house to rob
+
+        vector<int> dp(n, 0);
+        dp[0] = nums[0];
+
+        for (int i = 1; i < n; i++)
+        {
+            int take = nums[i];
+            if (i > 1)
+            {
+                take += dp[i - 2];
+            }
+            int notTake = dp[i - 1];
+
+            dp[i] = max(take, notTake);
+        }
+
+        return dp[n - 1];
+    }
+};
+
+//^ -------------------------------TABULATION (with space optimization)------------------------------------------------
+
+// -------------------------------TABULATION---------------------------------------------
+
+class Solution
+{
+public:
+    int rob(vector<int> &nums)
+    {
+        int n = nums.size();
+        if (n == 0)
+            return 0; // No houses to rob
+        if (n == 1)
+            return nums[0]; // Only one house to rob
+
+        int prev1 = nums[0];
+        int prev2 = 0;
+        int curr = 0;
+
+        for (int i = 1; i < n; i++)
+        {
+            int take = nums[i];
+            if (i > 1)
+            {
+                take += prev2;
+            }
+            int notTake = prev1;
+
+            curr = max(take, notTake);
+            prev2 = prev1;
+            prev1 = curr;
+        }
+
+        return prev1;
+    }
+};
