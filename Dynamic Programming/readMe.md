@@ -13,6 +13,7 @@
 ### 🎒 <span style="color:#9B59B6;">1D Dynamic Programming and Problems Based on It</span>
 
 1. **Climbing Stairs** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/climbing-stairs.cpp)
+2. **Frog Jump** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/Codestudio-Frog-Jump.cpp)
 
 ---
 
