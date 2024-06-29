@@ -1,5 +1,21 @@
 # 🎯 <span style="color:#FF5733;">Dynamic Programming</span>
 
+---
+
+## When to apply Dynamic Programming ?
+
+- **Try all possible ways**
+- **Count the total number of ways**
+- **Obtain min or max thing when you are having many options**
+
+---
+
+### 🎒 <span style="color:#9B59B6;">1D Dynamic Programming and Problems Based on It</span>
+
+1. **Climbing Stairs** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/climbing-stairs.cpp)
+
+---
+
 ## 👜 <span style="color:#3498DB;">Knapsack (3 Types)</span>
 
 - **Fractional Knapsack** (Greedy, not considered in DP)
