@@ -96,5 +96,17 @@
 
 2. **Diameter of a Binary Tree** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/Format-through-diameter-of-tree.cpp)
 3. **Maximum Path Sum from any Node to any** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/LC-124-Maximum-path-sum.cpp)
-4. **Maximum Path Sum from leaf to leaf** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
-5. **Diameter of N-ary Tree** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+4. **Maximum Path Sum from leaf to leaf**
+5. **Diameter of N-ary Tree**
+
+---
+
+### 🌳 <span style="color:#2ECC71;">Dynamic Programming on Grids and Problems Based on It</span>
+
+1. **Unique Paths** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+
+2. **Unique Paths 2** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+3. **Minimum Path Sum In Grid** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+4. **Triangle** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+5. **Min/Max Falling Path Sum** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+6. **Cherry Pickup** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
