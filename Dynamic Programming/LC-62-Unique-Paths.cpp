@@ -121,3 +121,31 @@ public:
         return tab[m - 1][n - 1];
     }
 };
+
+//^ -----------------------------------------1D Space optimized TABULATION-------------------------------------------------
+
+class Solution
+{
+public:
+    int uniquePaths(int m, int n)
+    {
+        // Initialize the dp array for the current row
+        vector<int> dp(n, 1);
+
+        // Loop through each row starting from the second row
+        for (int i = 1; i < m; ++i)
+        {
+            // Initialize a new array for the current row's calculations
+            vector<int> curr(n, 1);
+            for (int j = 1; j < n; ++j)
+            {
+                // Calculate the number of ways to reach cell (i, j)
+                curr[j] = curr[j - 1] + dp[j];
+            }
+            // Update dp to be the current row
+            dp = curr;
+        }
+        // The last cell contains the number of unique paths
+        return dp[n - 1];
+    }
+};
