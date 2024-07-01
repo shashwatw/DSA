@@ -103,9 +103,9 @@
 
 ### 🌳 <span style="color:#2ECC71;">Dynamic Programming on Grids and Problems Based on It</span>
 
-1. **Unique Paths** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+1. **Unique Paths** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/LC-62-Unique-Paths.cpp)
 
-2. **Unique Paths 2** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+2. **Unique Paths 2** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/LC-62\3-Unique-Paths-II.cpp)
 3. **Minimum Path Sum In Grid** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
 4. **Triangle** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
 5. **Min/Max Falling Path Sum** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
