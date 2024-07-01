@@ -106,7 +106,7 @@
 1. **Unique Paths** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/LC-62-Unique-Paths.cpp)
 
 2. **Unique Paths 2** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/LC-62\3-Unique-Paths-II.cpp)
-3. **Minimum Path Sum In Grid** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+3. **Minimum Path Sum In Grid** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/LC-64-Minimum-path-sum.cpp)
 4. **Triangle** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
 5. **Min/Max Falling Path Sum** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
 6. **Cherry Pickup** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
