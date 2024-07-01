@@ -97,3 +97,43 @@ public:
         return solve(0, 0, triangle, tab);
     }
 };
+
+//* -----------------------------------------------1D Space optimized TABULATION-------------------------------------------------
+
+class Solution
+{
+private:
+    int solve(int i, int j, vector<vector<int>> &triangle)
+    {
+        int n = triangle.size();
+
+        vector<int> front(n);
+
+        // base case
+        for (int j = 0; j < n; j++)
+        {
+            front[j] = triangle[n - 1][j];
+        }
+
+        for (int i = n - 2; i >= 0; i--)
+        {
+            vector<int> curr(n);
+            for (int j = i; j >= 0; j--)
+            {
+                int down = triangle[i][j] + front[j];
+                int diag = triangle[i][j] + front[j + 1];
+
+                curr[j] = min(down, diag);
+            }
+            front = curr;
+        }
+        return front[0];
+    }
+
+public:
+    int minimumTotal(vector<vector<int>> &triangle)
+    {
+        int n = triangle.size();
+        return solve(0, 0, triangle);
+    }
+};
