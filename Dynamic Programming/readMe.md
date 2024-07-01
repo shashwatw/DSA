@@ -109,4 +109,4 @@
 3. **Minimum Path Sum In Grid** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/LC-64-Minimum-path-sum.cpp)
 4. **Triangle** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/LC-120-Triangle.cpp)
 5. **Min/Max Falling Path Sum** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/Max-Path-Sum.cpp)
-6. **Cherry Pickup** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+6. **Cherry Pickup** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/LC-1463-Cherry-Pickup-II.cpp)
