@@ -126,7 +126,7 @@
 
 1. **Buy and Sell Stocks I** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/LC-121-Best-time-to-buy-and-sell-stock-I.cpp)
 
-2. **Buy and Sell Stocks II** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+2. **Buy and Sell Stocks II** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/LC-122-Best-time-to-buy-and-sell-stock-II.cpp)
 3. **Buy and Sell Stocks III** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
 4. **Buy and Sell Stocks IV** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
 5. **Buy and Sell Stocks with Cooldown** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
