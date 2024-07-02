@@ -133,3 +133,14 @@
 6. **Buy and Sell Stocks with Transaction Fee** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/LC-714-Best-time-to-buy-and-sell-stock-with-transaction-fee.cpp)
 
 ---
+
+### ⬆ <span style="color:#2ECC71;">Longest Increasing Subsequence and Problems Based on It</span>
+
+1. **Longest Increasing Subsequence (LIS)** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+2. **Print Longest Increasing Subsequence (LIS)** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+3. **Largest Divisible Subset** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+4. **Longest String Chain** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+5. **Longest Bitonic Subsequence** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+6. **Number of Longest Increasing Subsequences** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+
+---
