@@ -101,7 +101,7 @@
 
 ---
 
-### 🌳 <span style="color:#2ECC71;">Dynamic Programming on Grids and Problems Based on It</span>
+### 🔳 <span style="color:#2ECC71;">Dynamic Programming on Grids and Problems Based on It</span>
 
 1. **Unique Paths** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/LC-62-Unique-Paths.cpp)
 
@@ -113,9 +113,9 @@
 
 ---
 
-### 🌳 <span style="color:#2ECC71;">Dynamic Programming on String Matching and Problems Based on It</span>
+### 🔠 <span style="color:#2ECC71;">Dynamic Programming on String Matching and Problems Based on It</span>
 
-1. **Distinct Subsequences** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+1. **Distinct Subsequences** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/LC-115-Distinct-Subsequences.cpp)
 
-2. **Edit Distance** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+2. **Edit Distance** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/LC-72-Edit-Distance.cpp)
 3. **Wildcard Matching** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
