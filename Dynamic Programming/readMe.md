@@ -118,4 +118,4 @@
 1. **Distinct Subsequences** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/LC-115-Distinct-Subsequences.cpp)
 
 2. **Edit Distance** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/LC-72-Edit-Distance.cpp)
-3. **Wildcard Matching** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+3. **Wildcard Matching** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/LC-44-Wildcard-Matching.cpp)
