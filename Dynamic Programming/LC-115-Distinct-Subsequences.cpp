@@ -76,3 +76,37 @@ public:
         return tab[m][n] % MOD;
     }
 };
+
+//^ -----------------------------------------------1D Tabulation Optimization----------------------------------------------
+class Solution
+{
+public:
+    int numDistinct(string s, string t)
+    {
+        int m = s.size();
+        int n = t.size();
+        int MOD = 1e9 + 7;
+
+        vector<int> prev(n + 1, 0);
+        vector<int> curr(n + 1, 0);
+
+        prev[0] = curr[0] = 1;
+
+        for (int i = 1; i <= m; i++)
+        {
+            for (int j = 1; j <= n; j++)
+            {
+                if (s[i - 1] == t[j - 1])
+                {
+                    curr[j] = (prev[j - 1] + prev[j]) % MOD;
+                }
+                else
+                {
+                    curr[j] = prev[j] % MOD;
+                }
+            }
+            prev = curr;
+        }
+        return prev[n] % MOD;
+    }
+};
