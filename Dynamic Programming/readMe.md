@@ -105,8 +105,17 @@
 
 1. **Unique Paths** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/LC-62-Unique-Paths.cpp)
 
-2. **Unique Paths 2** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/LC-62\3-Unique-Paths-II.cpp)
+2. **Unique Paths 2** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/LC-63-Unique-Paths-II.cpp)
 3. **Minimum Path Sum In Grid** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/LC-64-Minimum-path-sum.cpp)
 4. **Triangle** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/LC-120-Triangle.cpp)
 5. **Min/Max Falling Path Sum** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/Max-Path-Sum.cpp)
 6. **Cherry Pickup** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/LC-1463-Cherry-Pickup-II.cpp)
+
+---
+
+### 🌳 <span style="color:#2ECC71;">Dynamic Programming on String Matching and Problems Based on It</span>
+
+1. **Distinct Subsequences** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+
+2. **Edit Distance** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+3. **Wildcard Matching** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
