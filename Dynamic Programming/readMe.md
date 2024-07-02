@@ -130,6 +130,6 @@
 3. **Buy and Sell Stocks III** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/LC-123-Best-time-to-buy-and-sell-stock-III.cpp)
 4. **Buy and Sell Stocks IV** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/LC-188-Best-time-to-buy-and-sell-stock-IV.cpp)
 5. **Buy and Sell Stocks with Cooldown** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/LC-309-Best-time-to-buy-and-sell-stock-with-cooldown.cpp)
-6. **Buy and Sell Stocks with Transaction Fee** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+6. **Buy and Sell Stocks with Transaction Fee** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/LC-714-Best-time-to-buy-and-sell-stock-with-transaction-fee.cpp)
 
 ---
