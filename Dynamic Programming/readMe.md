@@ -124,7 +124,7 @@
 
 ### 📈💹 <span style="color:#2ECC71;">Dynamic Programming on Stocks and Problems Based on It</span>
 
-1. **Buy and Sell Stocks I** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+1. **Buy and Sell Stocks I** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/LC-121-Best-time-to-buy-and-sell-stock-I.cpp)
 
 2. **Buy and Sell Stocks II** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
 3. **Buy and Sell Stocks III** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
