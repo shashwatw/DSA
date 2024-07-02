@@ -119,3 +119,17 @@
 
 2. **Edit Distance** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/LC-72-Edit-Distance.cpp)
 3. **Wildcard Matching** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/LC-44-Wildcard-Matching.cpp)
+
+---
+
+### 📈💹 <span style="color:#2ECC71;">Dynamic Programming on Stocks and Problems Based on It</span>
+
+1. **Buy and Sell Stocks I** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+
+2. **Buy and Sell Stocks II** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+3. **Buy and Sell Stocks III** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+4. **Buy and Sell Stocks IV** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+5. **Buy and Sell Stocks with Cooldown** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+6. **Buy and Sell Stocks with Transaction Fee** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+
+---
