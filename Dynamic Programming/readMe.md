@@ -136,7 +136,7 @@
 
 ### ⬆ <span style="color:#2ECC71;">Longest Increasing Subsequence and Problems Based on It</span>
 
-1. **Longest Increasing Subsequence (LIS)** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+1. **Longest Increasing Subsequence (LIS)** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/LC-300-Longest-Increasing-Subsequence.cpp)
 2. **Print Longest Increasing Subsequence (LIS)** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
 3. **Largest Divisible Subset** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
 4. **Longest String Chain** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
