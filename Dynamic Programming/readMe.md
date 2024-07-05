@@ -138,7 +138,7 @@
 
 1. **Longest Increasing Subsequence (LIS)** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/LC-300-Longest-Increasing-Subsequence.cpp)
 2. **Print Longest Increasing Subsequence (LIS)** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/printing-longest-increasing-subsequence.cpp)
-3. **Largest Divisible Subset** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
+3. **Largest Divisible Subset** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/LC-358-Largest-divisible-subset.cpp)
 4. **Longest String Chain** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
 5. **Longest Bitonic Subsequence** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
 6. **Number of Longest Increasing Subsequences** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/)
