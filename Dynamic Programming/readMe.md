@@ -85,6 +85,7 @@
 5. **Palindrome Partitioning** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/Palindromic-partitioning.cpp)
 6. **Scramble String** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/Scrambled-Strings.cpp)
 7. **Egg Dropping Problem** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/Egg-Dropping-problem.cpp)
+8. **Burst Balloons** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/LC312-Burst-balloons.cpp)
 
 ---
 
