@@ -146,3 +146,7 @@
 6. **Number of Longest Increasing Subsequences** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/LC-673-Number-of-longest-increasing-subsequences.cpp)
 
 ---
+
+### ⬆ <span style="color:#2ECC71;">Dynamic Programming on Rectangles</span>
+
+1. **Count Square Submatrices with All Ones** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/LC-1277-Count-square-submatrices-with-all-ones.cpp)
