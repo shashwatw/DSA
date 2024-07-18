@@ -144,6 +144,7 @@
 4. **Longest String Chain** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/LC-1048-Longest-string-chain.cpp)
 5. **Longest Bitonic Subsequence** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/Longest-Bitonic-subsequence.cpp)
 6. **Number of Longest Increasing Subsequences** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/LC-673-Number-of-longest-increasing-subsequences.cpp)
+7. **Longest Alternating Subsequence** [🔗](https://github.com/shashwatw/DSA/blob/master/Dynamic%20Programming/Longest-Alternating-Subsequence.cpp)
 
 ---
 
