@@ -1,3 +1,4 @@
+//& Refer : https://www.youtube.com/watch?v=_rnQKrA9xzA
 //^ https://leetcode.com/problems/second-minimum-time-to-reach-destination/description/
 
 class Solution
