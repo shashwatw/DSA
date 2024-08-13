@@ -16,7 +16,7 @@ private:
         }
 
         // pick
-        while (candidates[ind] <= target)
+        if (candidates[ind] <= target)
         {
             ds.push_back(candidates[ind]);
             findCombination(ind, target - candidates[ind], candidates, res, ds);
